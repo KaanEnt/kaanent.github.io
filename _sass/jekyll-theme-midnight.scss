@@ -245,7 +245,7 @@ section {
     h1 {
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
-      font-size: 40px;
+      font-size: 70px;
       text-align: center;
       line-height: 36px;
     }
@@ -254,12 +254,12 @@ section {
       color: #d7cfbe;
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
-      font-size: 18px;
+      font-size: 25px;
       text-align: center;
     }
 
     .credits {
-      font-size: 11px;
+      font-size: 15px;
       font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       color: #696969;
@@ -270,7 +270,7 @@ section {
       }
 
       &.middle{
-        float: middle;
+        display: inline-block;
       }
 
       &.right {
