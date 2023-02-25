@@ -266,13 +266,13 @@ section {
       font-weight: normal;
       color: #696969;
       margin-top: -10px;
-      text-align: center;
 
       &.left {
         float: left;
       }
 
       &.middle{
+        display: block;
         margin: auto;
       }
 
