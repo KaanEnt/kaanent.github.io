@@ -13,7 +13,7 @@ In this Project, I have done the Data Exploration for a Dataset of 10GB worth of
 Here, I experienced how to work with a big enough Dataset and how much time it can take and through that learned about how I can optimize my time while working with such a set.
 
 
-# [TensorFlow Image Recognition](https://github.com/KaanEnt/TensorFlow-Image-Recognition).
+# [TensorFlow Image Recognition](https://github.com/KaanEnt/TensorFlow-Image-Recognition)
 
 * Image Classification Prediction Program
 * Learned to run more optimized Regression Models
@@ -24,7 +24,7 @@ It is a Image Classification Prediction Algorithm that tells what is in the give
 Working with TensorFlow made me more familiar with Regression Models.
 
 
-# [AirBNB Customer Prediction](https://github.com/KaanEnt/AirBNB-Prediction-Data-Exploration).
+# [AirBNB Customer Prediction](https://github.com/KaanEnt/AirBNB-Prediction-Data-Exploration)
 
 * Learned to do Data Cleaning and Data Exploration
 * Learned to better document Data Science Projects with Notebooks
