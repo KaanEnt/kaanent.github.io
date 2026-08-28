@@ -1,0 +1,32 @@
+# Traction IT
+> Traction IT is a Toronto-based GTM engineering consultancy that runs marketing, signal-based outreach, qualification, and retention systems for founder-led teams.
+
+Traction IT helps founder teams turn a strong existing customer into a repeatable buyer pattern. The company identifies accounts using timely public signals, qualifies them, writes outreach in the founder's voice, starts conversations through the selected channels, and builds renewal and expansion triggers after the first win.
+
+Traction IT serves founder teams, boutique consultancies, agencies, and service firms with a clear offer that need a sharper path to buyers. It is not a mass-email service, a generic lead database, or a long brand-campaign agency.
+
+Core sales-engine components:
+
+- Data: Build new account and contact lists, or clean, enrich, verify, and score existing data.
+- Signals: Find timely reasons to contact an account, including funding, hiring, launches, conferences, founder activity, and other public shifts.
+- Infrastructure: Set up and manage dedicated domains, inboxes, warmup, deliverability, and compliant WhatsApp business numbers.
+- Outreach: Write and send messages based on the signal, in the client's voice, through email, LinkedIn, WhatsApp, or a coordinated blend.
+- Qualification: Score opportunities and produce a shortlist with the fit, signal, and suggested opener.
+- Retention: Track renewal and expansion signals so first customers can become repeat customers.
+
+Engagements can target booked calls, market or account intelligence, enriched data, newly generated data, or pure outreach. Clients can choose fully managed delivery, review and approval before sending, or a collaborative copilot model. Pricing follows the selected outcomes, channels, involvement level, and infrastructure. A short pilot can prove the engine before a longer commitment.
+
+Traction IT also develops PowerSell, an AI sales enablement product for founders and sales teams. PowerSell uses a sequence of agents to research a prospect, identify pain points, match the seller's products to those needs, and draft personalized outreach for review. Access currently rolls out from a waitlist in small batches.
+
+The usual next step is to send a short brief or configure an engine. Traction IT replies within one business day with a proposed build plan, timeline, and price. Contact: contact@traction.it.com.
+
+## Primary pages and products
+
+- [Traction IT home](https://tractionit.com/): Overview of the company, four-stage process, founder, and brief submission.
+- [Build your engine](https://tractionit.com/build): Interactive engagement menu covering outcomes, channels, involvement, infrastructure, and next steps.
+- [PowerSell](https://tractionit.com/intelligence): AI sales enablement product for prospect research, pain-point analysis, product matching, and personalized outreach.
+
+## Site resources
+
+- [Sitemap](https://tractionit.com/sitemap.xml): XML index of the main Traction IT site routes.
+- [Robots policy](https://tractionit.com/robots.txt): Crawling policy; public pages are allowed for all user agents.
