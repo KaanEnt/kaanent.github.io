@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" role="img" aria-label="Path waypoints">
+  <title>Path waypoints</title>
+  <!-- Two loose marks on the route. They break the grid, nothing more. -->
+  <g fill="none" stroke="#E86800" stroke-width="4">
+    <path d="M215 366l42 24v48l-42 24-42-24v-48z"/>
+    <ellipse cx="340" cy="808" rx="24" ry="14"/>
+  </g>
+</svg>

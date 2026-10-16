@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Clay">
+  <title>Clay</title>
+  <!-- Clay has no official mark in this repo, so the slot holds a terracotta
+       isometric block. An object, never an invented monogram. -->
+  <path fill="#E8813A" d="M32 6l26 13-26 13L6 19z"/>
+  <path fill="#C45500" d="M6 19l26 13v26L6 45z"/>
+  <path fill="#A64500" d="M58 19L32 32v26l26-13z"/>
+  <path fill="none" stroke="#FFFEF9" stroke-opacity="0.5" stroke-width="1.6" d="M32 32v26M6 19l26 13 26-13"/>
+</svg>

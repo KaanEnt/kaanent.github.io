@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 280" role="img" aria-label="Kept accounts tray">
+  <title>Kept accounts tray</title>
+  <path fill="#F9A765" fill-opacity="0.22" d="M40 84c0-30 26-52 62-52h56c36 0 62 22 62 52v96c0 30-26 52-62 52h-56c-36 0-62-22-62-52z"/>
+  <path fill="#FFFEF9" fill-opacity="0.9" d="M74 118h132v148H74z"/>
+  <path fill="#F9A765" fill-opacity="0.45" d="M92 140h96v9H92zM92 162h96v9H92zM92 184h64v9H92z"/>
+  <path fill="#E86800" d="M92 206h58v7H92zM92 222h34v7H92z"/>
+  <path fill="#F9A765" fill-opacity="0.5" d="M110 60h60v12h-60z"/>
+  <circle cx="222" cy="150" r="10" fill="#F9A765" fill-opacity="0.55"/>
+</svg>

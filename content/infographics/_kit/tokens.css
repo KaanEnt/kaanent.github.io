@@ -1,0 +1,35 @@
+/*
+  Traction IT / infographic kit tokens.
+  The five brand values are the same ones exported from lib/tokens.ts. Anything
+  below that line is a poster-only addition, kept here so a piece never invents
+  a colour inline.
+*/
+
+:root {
+  /* lib/tokens.ts */
+  --cream: #FFFEF9;
+  --exuberant: #E86800;
+  --candied: #F9A765;
+  --ink: #353536;
+  --ink-60: rgba(53, 53, 54, 0.6);
+
+  /* Poster additions */
+  --near-black: #080807;
+  --deep: #C45500; /* Exuberant Orange darkened, for a station that has to sit under 01 */
+  --ink-14: rgba(53, 53, 54, 0.14);
+  --ink-72: rgba(8, 8, 7, 0.72);
+  --cream-72: rgba(255, 254, 249, 0.76);
+  --grid: rgba(53, 53, 54, 0.055);
+  --shadow: 0 18px 44px rgba(8, 8, 7, 0.1);
+
+  /* Type. Fraunces sets everything structural, Newsreader Medium Italic
+     carries every label. Sentence case only, never a forced uppercase. */
+  --display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --italic: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --mono: "IBM Plex Mono", "SFMono-Regular", monospace;
+
+  --step-num: 58px;
+  --step-name: 30px;
+  --step-fact: 21px;
+  --label: 13px;
+}

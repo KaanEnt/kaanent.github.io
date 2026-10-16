@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Parcel">
+  <title>Parcel</title>
+  <path fill="#E8813A" d="M48 10l38 19-38 19L10 29z"/>
+  <path fill="#C45500" d="M10 29l38 19v38L10 67z"/>
+  <path fill="#A64500" d="M86 29L48 48v38l38-19z"/>
+  <path fill="none" stroke="#FFFEF9" stroke-opacity="0.6" stroke-width="2.4" d="M48 48v38M29 19l38 19"/>
+</svg>

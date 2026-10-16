@@ -1,0 +1,221 @@
+/*
+  Traction IT / infographic kit primitives.
+  Shared surfaces for a poster-sized piece: the canvas, the faint grid field,
+  the station plates that a workflow path threads through, the logo row, and the
+  publisher footer. Geometry stays in the piece, never here.
+*/
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--cream);
+  overflow: hidden;
+}
+
+/* The canvas is a fixed pixel frame. Every child positions against it, so the
+   render size in the page head and the numbers in the piece agree. */
+.poster {
+  position: relative;
+  overflow: hidden;
+  background: var(--cream);
+  color: var(--near-black);
+  font-family: var(--display);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Drafting paper, not a pattern. It should read as texture at thumbnail size. */
+.grid-field {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    repeating-linear-gradient(90deg, var(--grid) 0 1px, transparent 1px 54px),
+    repeating-linear-gradient(180deg, var(--grid) 0 1px, transparent 1px 54px);
+  -webkit-mask-image: radial-gradient(120% 70% at 12% 4%, rgba(0, 0, 0, 0.9), transparent 72%);
+  mask-image: radial-gradient(120% 70% at 12% 4%, rgba(0, 0, 0, 0.9), transparent 72%);
+}
+
+/* Objects sit under the path, the path sits under the stations. */
+.object {
+  position: absolute;
+  z-index: 1;
+  display: block;
+}
+
+.route {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.eyebrow {
+  font-family: var(--italic);
+  font-style: italic;
+  font-weight: 500;
+  color: var(--exuberant);
+}
+
+.display {
+  font-weight: 700;
+  letter-spacing: -0.032em;
+  line-height: 0.94;
+  color: var(--near-black);
+}
+
+.lede {
+  font-family: var(--italic);
+  font-style: italic;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* A station is one step of the path. Size, fill and rotation are set per
+   station in the piece so the four never read as an equal band stack. */
+.station {
+  position: absolute;
+  box-shadow: var(--shadow);
+}
+
+.station--solid { background: var(--exuberant); }
+.station--outline { background: var(--cream); border: 7px solid var(--exuberant); }
+.station--candied { background: var(--candied); }
+.station--deep { background: var(--deep); }
+
+.station-num {
+  font-size: var(--step-num);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 0.86;
+}
+
+.station-name {
+  font-family: var(--italic);
+  font-style: italic;
+  font-weight: 500;
+  font-size: var(--step-name);
+  line-height: 1.1;
+}
+
+.station-fact {
+  font-weight: 600;
+  font-size: var(--step-fact);
+  line-height: 1.34;
+  letter-spacing: -0.006em;
+}
+
+.logo-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 26px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+/* Marks come in different proportions, so they hang from a shared baseline
+   box. That keeps the names on one line without resizing any logo. */
+.logo-mark {
+  display: flex;
+  align-items: flex-end;
+  height: 46px;
+}
+
+.logo img {
+  display: block;
+  width: auto;
+}
+
+/* Vendors with no official SVG get a named colour chip. Never a made up mark. */
+.chip {
+  border-radius: 5px;
+  background: var(--ink);
+}
+
+.logo-name {
+  font-family: var(--italic);
+  font-style: italic;
+  font-weight: 500;
+  font-size: var(--label);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* Traction publishes the piece, it is not the subject of it. */
+.footer {
+  position: absolute;
+  z-index: 7;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer-rule {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 1px;
+  background: linear-gradient(90deg, var(--ink-14) 0 58%, var(--exuberant) 66%, var(--exuberant) 100%);
+}
+
+.byline { display: flex; align-items: center; gap: 14px; }
+
+.byline img {
+  display: block;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* Same hard treatment as components/primitives/SelectiveColorImage.tsx */
+  filter: grayscale(1) contrast(1.24) brightness(0.98) saturate(0);
+}
+
+.byline-name {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  color: var(--near-black);
+}
+
+.byline-role {
+  font-family: var(--italic);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--exuberant);
+}
+
+.publisher { display: flex; align-items: baseline; gap: 12px; }
+
+.wordmark {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+
+.wordmark .it {
+  font-family: var(--mono);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--exuberant);
+  vertical-align: 7px;
+  margin-left: 3px;
+}
+
+.url {
+  font-family: var(--italic);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--exuberant);
+}

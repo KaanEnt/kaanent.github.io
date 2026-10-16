@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--
+  Traction IT / infographic 02: Volume is dead.
+  Canvas 1080x1350, the LinkedIn portrait post. HTML first, so every number on
+  the poster is editable text rather than pixels.
+
+  The composition is a process map, not four stacked bands. One winding orange
+  path enters at the top left and leaves at the footer. Four stations sit on it
+  at four sizes and four fills, in reading order 01, 02, 03, 04.
+
+  Asset paths are relative to this file, so keep it inside
+  public/content/infographics/02-volume-is-dead/.
+  Render: node public/content/infographics/_kit/render.mjs 02-volume-is-dead
+-->
+<html lang="en">
+<head><script src="/mirror-shim.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="render-size" content="1080x1350" />
+  <title>Traction IT / Volume is dead / Outbound in 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Newsreader:ital,opsz,wght@1,6..72,500&family=IBM+Plex+Mono:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../_kit/tokens.css" />
+  <link rel="stylesheet" href="../_kit/primitives.css" />
+  <style>
+    html, body { width: 1080px; height: 1350px; }
+
+    .poster { width: 1080px; height: 1350px; }
+
+    /* Header */
+    .eyebrow { position: absolute; z-index: 3; left: 36px; top: 24px; font-size: 19px; }
+    .display { position: absolute; z-index: 3; left: 32px; top: 44px; font-size: 76px; }
+    .lede { position: absolute; z-index: 3; left: 36px; top: 196px; font-size: 19px; }
+
+    /* Stations. Sizes deliberately disagree with each other. */
+    .station-01 {
+      left: 633px; top: 10px; width: 429px; height: 432px;
+      z-index: 4;
+      padding: 44px 40px;
+      transform: rotate(-2deg);
+    }
+
+    .station-02 {
+      left: 24px; top: 455px; width: 477px; height: 297px;
+      z-index: 3;
+      padding: 26px 30px;
+    }
+
+    .station-03 {
+      left: 508px; top: 679px; width: 534px; height: 363px;
+      z-index: 5;
+      padding: 38px 36px;
+    }
+
+    .station-04 {
+      left: 24px; top: 1038px; width: 712px; height: 202px;
+      z-index: 6;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      padding: 26px 34px;
+    }
+
+    .station-01 .station-num, .station-01 .station-name { color: var(--cream); }
+    .station-01 .station-fact { color: var(--near-black); max-width: 222px; }
+    .station-01 .logo-name { color: var(--ink-72); }
+
+    .station-02 .station-num { color: var(--near-black); }
+    .station-02 .station-name { color: var(--exuberant); }
+    .station-02 .station-fact { color: var(--near-black); max-width: 344px; font-size: 19px; margin-top: 10px; }
+    .station-02 .logo-name { color: var(--ink-60); }
+
+    .station-03 .station-num { color: var(--cream); }
+    .station-03 .station-name { color: var(--deep); }
+    .station-03 .station-fact { color: var(--near-black); max-width: 300px; }
+    .station-03 .logo-name { color: var(--ink-72); }
+
+    .station-04 .station-num, .station-04 .station-name { color: var(--cream); }
+    .station-04 .station-fact { color: var(--cream); max-width: 330px; font-size: 20px; }
+    .station-04 .logo-name { color: var(--cream-72); }
+
+    .station-name { margin-top: 4px; }
+    .station-fact { margin-top: 18px; }
+
+    /* Three stations park their logos on the floor of the plate. Station 04 is
+       a wide band, so its logos sit beside the copy instead. */
+    .station-01 .logo-row { position: absolute; left: 40px; bottom: 40px; }
+    .station-02 .logo-row { position: absolute; left: 30px; bottom: 20px; gap: 22px; }
+    .station-03 .logo-row { position: absolute; left: 36px; bottom: 34px; }
+
+    .station-02 .logo-mark { height: 38px; }
+    .station-04 .logo-row { gap: 24px; }
+
+    .mark-gmail { height: 34px; }
+    .mark-microsoft { height: 40px; }
+    .mark-linkedin { height: 44px; }
+    .mark-hubspot { height: 40px; }
+    .mark-clay { height: 44px; }
+
+    .chip-instantly { width: 38px; height: 38px; background: var(--exuberant); }
+    .chip-smartlead { width: 38px; height: 38px; background: var(--near-black); }
+    .chip-salesnav { width: 44px; height: 44px; background: var(--deep); }
+    .chip-findymail {
+      width: 40px; height: 40px;
+      background: var(--cream);
+      border: 1px solid rgba(255, 254, 249, 0.6);
+    }
+
+    /* Objects. Pale, behind the path, never competing with a station. */
+    .object-lock { left: 336px; top: 130px; width: 300px; height: 300px; }
+    .object-balloon { left: 505px; top: 150px; width: 200px; height: 250px; }
+    .object-parcel { left: 596px; top: 500px; width: 96px; height: 96px; }
+    .object-kiosk { left: 350px; top: 762px; width: 180px; height: 200px; }
+    .object-tray { left: 782px; top: 1000px; width: 260px; height: 280px; }
+
+    /* Footer */
+    .footer { left: 28px; right: 28px; top: 1258px; height: 64px; padding-top: 16px; }
+  </style>
+</head>
+<body>
+  <div class="poster">
+    <div class="grid-field"></div>
+
+    <img class="object object-lock" src="objects/lock-and-key.svg" alt="" />
+    <img class="object object-balloon" src="objects/hot-air-balloon.svg" alt="" />
+    <img class="object object-parcel" src="objects/parcel.svg" alt="" />
+    <img class="object object-kiosk" src="objects/kiosk.svg" alt="" />
+    <img class="object object-tray" src="objects/document-tray.svg" alt="" />
+
+    <img class="route" src="objects/route.svg" alt="" />
+    <img class="route" src="objects/waypoints.svg" alt="" />
+
+    <p class="eyebrow">Outbound in 2026</p>
+    <h1 class="display">Volume is<br />dead.</h1>
+    <p class="lede">The rules that replaced it.</p>
+
+    <div class="station station--solid station-01">
+      <p class="station-num">01</p>
+      <p class="station-name">Authenticate</p>
+      <p class="station-fact">5,000/day to Gmail, Yahoo, or Outlook is bulk. SPF + DKIM + DMARC, or SMTP reject.</p>
+      <div class="logo-row">
+        <div class="logo">
+          <div class="logo-mark"><img class="mark-gmail" src="logos/gmail.svg" alt="Gmail" /></div>
+          <p class="logo-name">Gmail</p>
+        </div>
+        <div class="logo">
+          <div class="logo-mark"><img class="mark-microsoft" src="logos/microsoft.svg" alt="Microsoft" /></div>
+          <p class="logo-name">Microsoft</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="station station--outline station-02">
+      <p class="station-num">02</p>
+      <p class="station-name">Cap</p>
+      <p class="station-fact">Practitioners cap ~30/inbox/day. Scale with more inboxes, not more volume.</p>
+      <div class="logo-row">
+        <div class="logo">
+          <div class="logo-mark"><img class="mark-gmail" src="logos/gmail.svg" alt="Gmail" /></div>
+          <p class="logo-name">Gmail</p>
+        </div>
+        <div class="logo">
+          <div class="logo-mark"><div class="chip chip-instantly"></div></div>
+          <p class="logo-name">Instantly</p>
+        </div>
+        <div class="logo">
+          <div class="logo-mark"><div class="chip chip-smartlead"></div></div>
+          <p class="logo-name">Smartlead</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="station station--candied station-03">
+      <p class="station-num">03</p>
+      <p class="station-name">Invite</p>
+      <p class="station-fact">~100 connects/week (working ceiling). Sales Nav is 50 InMail/mo. You cannot buy more invites.</p>
+      <div class="logo-row">
+        <div class="logo">
+          <div class="logo-mark"><img class="mark-linkedin" src="logos/linkedin.svg" alt="LinkedIn" /></div>
+          <p class="logo-name">LinkedIn</p>
+        </div>
+        <div class="logo">
+          <div class="logo-mark"><div class="chip chip-salesnav"></div></div>
+          <p class="logo-name">Sales Nav</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="station station--deep station-04">
+      <div>
+        <p class="station-num">04</p>
+        <p class="station-name">Waterfall then keep</p>
+        <p class="station-fact">Enrich the shortlist. Stop on the first valid email. Then outbound people who already bought.</p>
+      </div>
+      <div class="logo-row">
+        <div class="logo">
+          <div class="logo-mark"><img class="mark-clay" src="logos/clay-block.svg" alt="Clay" /></div>
+          <p class="logo-name">Clay</p>
+        </div>
+        <div class="logo">
+          <div class="logo-mark"><img class="mark-hubspot" src="logos/hubspot.svg" alt="HubSpot" /></div>
+          <p class="logo-name">HubSpot</p>
+        </div>
+        <div class="logo">
+          <div class="logo-mark"><div class="chip chip-findymail"></div></div>
+          <p class="logo-name">Findymail</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-rule"></div>
+      <div class="byline">
+        <img src="../../../img/kaan-founder.jpg" alt="Kaan UN" />
+        <div>
+          <p class="byline-name">Kaan UN</p>
+          <p class="byline-role">Traction &middot; GTM engineering</p>
+        </div>
+      </div>
+      <div class="publisher">
+        <p class="wordmark">Traction<span class="it">IT</span></p>
+        <p class="url">traction.it.com</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
