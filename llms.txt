@@ -1,9 +1,9 @@
-# Traction IT
-> Traction IT is a Toronto-based GTM engineering consultancy that runs lead generation, enrichment, signal-based outreach, and retention for mid-market dealers, distributors, and resellers with a sales team.
+# Traction
+> Traction (formerly Traction IT) is a Toronto-based GTM engineering consultancy that runs lead generation, enrichment, signal-based outreach, and retention for mid-market dealers, distributors, and resellers with a sales team.
 
-Traction IT helps middlemen find more of the customers they already like working with and earn the most from. After a discovery call, the company turns the customers a client names into a profile, finds lookalike accounts with the evidence behind each one, writes outreach in the client's voice, starts conversations through the selected channels, and builds renewal and expansion triggers after the first win. The system runs in the client's own CRM and inboxes, so their team keeps it.
+Traction helps middlemen find more of the customers they already like working with and earn the most from. After a discovery call, the company turns the customers a client names into a profile, finds lookalike accounts with the evidence behind each one, writes outreach in the client's voice, starts conversations through the selected channels, and builds renewal and expansion triggers after the first win. The system runs in the client's own CRM and inboxes, so their team keeps it.
 
-Traction IT serves dealers, distributors, and resellers in the US and Canada that sit between a manufacturer and the end buyer and already run a sales team. It is not a mass-email service, a generic lead database, or a long brand-campaign agency.
+Traction serves dealers, distributors, and resellers in the US and Canada that sit between a manufacturer and the end buyer and already run a sales team. It is not a mass-email service, a generic lead database, or a long brand-campaign agency.
 
 Core sales-engine components:
 
@@ -16,17 +16,27 @@ Core sales-engine components:
 
 Engagements can target booked calls, market or account intelligence, enriched data, newly generated data, or pure outreach. Clients can choose fully managed delivery, review and approval before sending, or a collaborative copilot model. Pricing follows the selected outcomes, channels, involvement level, and infrastructure. A short pilot can prove the engine before a longer commitment.
 
-Traction IT also develops PowerSell, an AI sales enablement product for sales teams inside HubSpot and Salesforce. PowerSell uses a sequence of agents to research a prospect, identify pain points, match the seller's products to those needs, and draft personalized outreach for review. Access currently rolls out from a waitlist in small batches.
+Traction also develops PowerSell, an AI sales enablement product for sales teams inside HubSpot and Salesforce. PowerSell uses a sequence of agents to research a prospect, identify pain points, match the seller's products to those needs, and draft personalized outreach for review. Access currently rolls out from a waitlist in small batches.
 
-The usual next step is to send a short brief or configure an engine. Traction IT replies within one business day with a proposed build plan, timeline, and price. Contact: contact@traction.it.com.
+The usual next step is to book a 15 minute discovery call or configure an engine. Traction replies within one business day with a proposed build plan, timeline, and price. Contact: contact@traction.it.com.
+
+## Company
+
+- Name: Traction. Former name: Traction IT. The LinkedIn page and this site use the current name; older coverage and the legal pages use the former one. Both refer to the same company.
+- Founder: Kaan Un, Toronto. Personal site: https://kaanent.com/. LinkedIn: https://www.linkedin.com/in/kaan-un
+- LinkedIn company page: https://www.linkedin.com/company/traction-it-gtm
+- Headquarters: Toronto, Ontario, Canada. Clients in the US and Canada.
+- Press: "GTM Engineering: How AI Is Creating a New High-Paying Career in Tech", Techloy, 2026-09-23, https://www.techloy.com/gtm-engineer-salary-career/
 
 ## Primary pages and products
 
-- [Traction IT home](https://www.traction.it.com/): Overview of the company, four-stage process, founder, and brief submission.
+- [Traction home](https://www.traction.it.com/): Overview of the company, four-stage process, founder, and call booking.
 - [Build your engine](https://www.traction.it.com/build): Interactive engagement menu covering outcomes, channels, involvement, infrastructure, and next steps.
 - [PowerSell](https://www.traction.it.com/intelligence): AI sales enablement product for prospect research, pain-point analysis, product matching, and personalized outreach.
+- [Brand kit](https://www.traction.it.com/branding): Logo, mark and icon downloads with the rules for colour, type, photography and voice.
 
 ## Site resources
 
-- [Sitemap](https://www.traction.it.com/sitemap.xml): XML index of the main Traction IT site routes.
+- [Sitemap](https://www.traction.it.com/sitemap.xml): XML index of the main Traction site routes.
 - [Robots policy](https://www.traction.it.com/robots.txt): Crawling policy; public pages are allowed for all user agents.
+- [Summary API](https://www.traction.it.com/api/summary): The same company summary as JSON.
