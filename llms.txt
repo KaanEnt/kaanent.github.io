@@ -34,6 +34,15 @@ The usual next step is to book a 15 minute discovery call or configure an engine
 - [Build your engine](https://www.traction.it.com/build): Interactive engagement menu covering outcomes, channels, involvement, infrastructure, and next steps.
 - [PowerSell](https://www.traction.it.com/intelligence): AI sales enablement product for prospect research, pain-point analysis, product matching, and personalized outreach.
 - [Brand kit](https://www.traction.it.com/branding): Logo, mark and icon downloads with the rules for colour, type, photography and voice.
+- [Field notes](https://www.traction.it.com/blog): GTM engineering notes from Toronto. Each one is the long version of a LinkedIn post by the founder, with its video.
+
+## Field notes
+
+- [Filter your leads before you enrich them](https://www.traction.it.com/blog/filter-leads-before-enrichment): Put the fit filter in the first three moves of the pipeline, before enrichment credits are spent.
+- [Outbound gets better with a filter on](https://www.traction.it.com/blog/outbound-list-filter): Five steps to cut an outbound list to accounts that look like the last five customers who paid.
+- [The boring middle of the pipeline is where retention lives](https://www.traction.it.com/blog/retention-email-loop): A booking confirm, a day before nudge and a same day summary, run as an automation.
+- [Still running last year's GTM? The path we run now](https://www.traction.it.com/blog/gtm-path): Brief, list, qualify, tier, browser loop and post call close.
+- [How to build a lead list from Google Maps and Clay](https://www.traction.it.com/blog/google-maps-lead-list): Apify, Clay, deep research, Prospeo and MillionVerifier in seven steps.
 
 ## Site resources
 
