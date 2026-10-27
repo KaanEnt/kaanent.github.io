@@ -34,7 +34,7 @@ The usual next step is to book a 15 minute discovery call or configure an engine
 - [Traction home](https://www.traction.it.com/): Overview of the company, four-stage process, founder, and call booking.
 - [Build your engine](https://www.traction.it.com/build): Interactive engagement menu covering outcomes, channels, involvement, infrastructure, and next steps.
 - [PowerSell](https://www.traction.it.com/intelligence): AI sales enablement product for prospect research, pain-point analysis, product matching, and personalized outreach.
-- [Brand kit](https://www.traction.it.com/branding): Logo, mark and icon downloads with the rules for colour, type, photography and voice.
+- [Brand kit](https://www.traction.it.com/branding): Logo, mark and icon downloads with the rules for colour, type and photography.
 - [Field notes](https://www.traction.it.com/blog): GTM engineering notes from Toronto. Each one is the long version of a LinkedIn post by the founder, with its video.
 
 ## Field notes
